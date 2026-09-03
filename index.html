@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeliveryWorkerAtlas</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  
+  <style type="text/tailwindcss">
+    @theme {
+      --color-mar-900: #101521;
+      --color-mar-800: #1A2744;
+      --color-text-muted: #60718D;
+      --color-line: #E4E4E7;
+      --color-bg-page: #F0F2F4;
+      --color-orange-500: #FF5E00;
+      --color-teal: #0D9488;
+      --font-sans: "DM Sans", sans-serif;
+      --font-serif: Georgia, serif;
+    }
+  </style>
+</head>
+<body class="bg-bg-page text-mar-800 min-h-screen flex flex-col font-sans">
+
+  <header class="bg-mar-900 px-6 py-5 shadow-sm">
+    <div class="max-w-4xl mx-auto">
+      <p class="text-2xl font-bold font-sans tracking-tight">
+        <span class="text-white">DeliveryWorker</span><span class="text-orange-500">Atlas</span>
+      </p>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-20 flex-grow flex flex-col justify-center w-full">
+    <p class="text-sm uppercase tracking-widest text-teal font-bold mb-4">Research dashboard</p>
+    
+    <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold font-serif tracking-tight mb-6 text-mar-900 leading-tight">
+      Open Data and Research on delivery workers
+    </h1>
+    
+    <p class="text-lg text-text-muted max-w-2xl mb-10 leading-relaxed">
+    DWAtlas is a data visualization and research platform for delivery workers. It provides insights into the working conditions, earnings, and experiences of delivery workers across different platforms and regions. 
+    </p>
+    
+    <div class="flex flex-wrap gap-4">
+      <!--<a href="#about" class="bg-white hover:bg-gray-50 border border-line text-mar-800 font-medium px-6 py-3 rounded-md transition-colors shadow-sm">
+        About the research
+      </a> -->
+      <a href="mailto:contact@dwatlas.org" class="bg-orange-500 hover:bg-[#E65500] text-white font-medium px-3 py-2 rounded-md transition-colors shadow-sm flex items-center gap-2">
+        Contact the research team
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+        </svg>
+      </a>
+    </div>
+  </main>
+
+  <footer class="border-t border-line py-8 px-6 mt-auto bg-bg-page">
+    <div class="max-w-4xl mx-auto flex gap-6 text-text-muted justify-center text-sm font-medium">
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="hover:text-mar-800 transition-colors">GitHub</a>
+      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="hover:text-mar-800 transition-colors">Twitter</a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="hover:text-mar-800 transition-colors">LinkedIn</a>
+    </div>
+  </footer>
+
+</body>
+</html>
